@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477b71f8-4a61-40eb-bf2f-4782cc399729" name="Changes" comment="complete i/o and cpu/bound">
+    <list default="true" id="477b71f8-4a61-40eb-bf2f-4782cc399729" name="Changes" comment="write gil in pyhton example">
       <change afterPath="$PROJECT_DIR$/1_Global_Interpreter_Lock/measure_fibonacci_time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0_intro/headers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0_intro/headers.txt" afterDir="false" />
@@ -52,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.measure_fibonacci_time.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.measure_fibonacci_time">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="asyncio_tutorials" />
       <option name="ENV_FILES" value="" />
@@ -82,6 +83,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0_intro/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="measure_fibonacci_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="asyncio_tutorials" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Global_Interpreter_Lock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Global_Interpreter_Lock/measure_fibonacci_time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.measure_fibonacci_time" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
       </list>
@@ -138,7 +163,7 @@
       <workItem from="1712568728533" duration="2000" />
       <workItem from="1712570351729" duration="2531000" />
       <workItem from="1712573440062" duration="3020000" />
-      <workItem from="1712638567738" duration="8836000" />
+      <workItem from="1712638567738" duration="9704000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="complete i/o and cpu/bound">
       <option name="closed" value="true" />
@@ -147,7 +172,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
       <updated>1712658202570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎−۰۰۰۰۲" summary="write gil in pyhton example">
+      <option name="closed" value="true" />
+      <created>1712665003302</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
+      <updated>1712665003302</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,10 +198,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete i/o and cpu/bound" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete i/o and cpu/bound" />
+    <MESSAGE value="write gil in pyhton example" />
+    <option name="LAST_COMMIT_MESSAGE" value="write gil in pyhton example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/asyncio_tutorials$test.coverage" NAME="test Coverage Results" MODIFIED="1712662857224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Global_Interpreter_Lock" />
+    <SUITE FILE_PATH="coverage/asyncio_tutorials$measure_fibonacci_time.coverage" NAME="measure_fibonacci_time Coverage Results" MODIFIED="1712664886283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Global_Interpreter_Lock" />
+    <SUITE FILE_PATH="coverage/asyncio_tutorials$test.coverage" NAME="test Coverage Results" MODIFIED="1712664471361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Global_Interpreter_Lock" />
     <SUITE FILE_PATH="coverage/asyncio_tutorials$main.coverage" NAME="main Coverage Results" MODIFIED="1712662690390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0_intro" />
   </component>
 </project>
