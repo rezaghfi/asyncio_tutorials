@@ -2,6 +2,7 @@ import threading, time
 
 # global interpreter lock - GIL
 # اگر برنامه محدود به پردازش باشد فرقی بین اجرای چند نخی و تک نخی نمی کند.
+# CPU - bound
 def calculate_fibonacci(n):
     if n == 1:
         return 1
