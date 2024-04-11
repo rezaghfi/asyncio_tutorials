@@ -1,3 +1,5 @@
+#git remote set-url --add --push [remote] [original repo URL]
+#git remote set-url --add --push [remote] [second repo URL
 .venv
 
 
