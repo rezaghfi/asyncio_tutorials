@@ -1,5 +1,5 @@
 #git remote set-url --add --push [remote] [original repo URL]
-#git remote set-url --add --push [remote] [second repo URL
+#git remote set-url --add --push [remote] https://ganj.yaftyar.ir/gholamalitabar_r/asyncio_tutorials.git
 .venv
 
 
